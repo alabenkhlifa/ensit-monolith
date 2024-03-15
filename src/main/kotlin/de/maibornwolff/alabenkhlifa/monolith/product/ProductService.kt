@@ -1,7 +1,5 @@
-package de.maibornwolff.alabenkhlifa.monolith.service
+package de.maibornwolff.alabenkhlifa.monolith.product
 
-import de.maibornwolff.alabenkhlifa.monolith.entity.Product
-import de.maibornwolff.alabenkhlifa.monolith.repository.ProductRepository
 import org.springframework.stereotype.Service
 
 @Service

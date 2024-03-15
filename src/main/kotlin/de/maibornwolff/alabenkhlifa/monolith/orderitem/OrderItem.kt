@@ -1,4 +1,4 @@
-package de.maibornwolff.alabenkhlifa.monolith.entity
+package de.maibornwolff.alabenkhlifa.monolith.orderitem
 
 import jakarta.persistence.Entity
 import jakarta.persistence.Id

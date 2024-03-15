@@ -1,7 +1,7 @@
-package de.maibornwolff.alabenkhlifa.monolith.controller
+package de.maibornwolff.alabenkhlifa.monolith.product
 
-import de.maibornwolff.alabenkhlifa.monolith.entity.Product
-import de.maibornwolff.alabenkhlifa.monolith.service.ProductService
+import de.maibornwolff.alabenkhlifa.monolith.product.Product
+import de.maibornwolff.alabenkhlifa.monolith.product.ProductService
 import org.springframework.web.bind.annotation.*
 
 @RestController

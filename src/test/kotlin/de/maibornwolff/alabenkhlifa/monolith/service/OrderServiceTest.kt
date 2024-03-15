@@ -1,8 +1,9 @@
 package de.maibornwolff.alabenkhlifa.monolith.service
 
-import de.maibornwolff.alabenkhlifa.monolith.entity.Order
-import de.maibornwolff.alabenkhlifa.monolith.entity.OrderStatus
-import de.maibornwolff.alabenkhlifa.monolith.repository.OrderRepository
+import de.maibornwolff.alabenkhlifa.monolith.order.Order
+import de.maibornwolff.alabenkhlifa.monolith.order.OrderStatus
+import de.maibornwolff.alabenkhlifa.monolith.order.OrderService
+import de.maibornwolff.alabenkhlifa.monolith.order.OrderRepository
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

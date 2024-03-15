@@ -1,7 +1,5 @@
-package de.maibornwolff.alabenkhlifa.monolith.service
+package de.maibornwolff.alabenkhlifa.monolith.pricing
 
-import de.maibornwolff.alabenkhlifa.monolith.entity.Pricing
-import de.maibornwolff.alabenkhlifa.monolith.repository.PricingRepository
 import org.springframework.stereotype.Service
 
 @Service

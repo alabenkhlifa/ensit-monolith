@@ -1,7 +1,5 @@
-package de.maibornwolff.alabenkhlifa.monolith.repository
+package de.maibornwolff.alabenkhlifa.monolith.order
 
-import de.maibornwolff.alabenkhlifa.monolith.entity.Order
-import de.maibornwolff.alabenkhlifa.monolith.entity.OrderStatus
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

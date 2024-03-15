@@ -1,8 +1,5 @@
-package de.maibornwolff.alabenkhlifa.monolith.service
+package de.maibornwolff.alabenkhlifa.monolith.order
 
-import de.maibornwolff.alabenkhlifa.monolith.entity.Order
-import de.maibornwolff.alabenkhlifa.monolith.entity.OrderStatus
-import de.maibornwolff.alabenkhlifa.monolith.repository.OrderRepository
 import org.springframework.stereotype.Service
 
 @Service

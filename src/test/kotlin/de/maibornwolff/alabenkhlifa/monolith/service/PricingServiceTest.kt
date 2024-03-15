@@ -1,7 +1,8 @@
 package de.maibornwolff.alabenkhlifa.monolith.service
 
-import de.maibornwolff.alabenkhlifa.monolith.entity.Pricing
-import de.maibornwolff.alabenkhlifa.monolith.repository.PricingRepository
+import de.maibornwolff.alabenkhlifa.monolith.pricing.Pricing
+import de.maibornwolff.alabenkhlifa.monolith.pricing.PricingRepository
+import de.maibornwolff.alabenkhlifa.monolith.pricing.PricingService
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.jupiter.api.Assertions.*
