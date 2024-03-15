@@ -5,9 +5,10 @@ import jakarta.persistence.Id
 import java.time.LocalDate
 
 @Entity
-class Inventory(
+class Customer(
     @Id
-    val inventoryId: Long = 0,
-    val productId: Long = 0,
-    val quantityOnHand: Long = 0
+    val customerId: Long = 0,
+    val firstname: String = "",
+    val lastname: String = "",
+    val email: String = ""
 )

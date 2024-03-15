@@ -5,10 +5,10 @@ import jakarta.persistence.Id
 import java.time.LocalDate
 
 @Entity
-class Customer(
+class Pricing(
     @Id
-    val customerId: Long = 0,
-    val firstname: String = "",
-    val lastname: String = "",
-    val email: String = ""
+    val pricingId: Long = 0,
+    val productId: Long = 0,
+    val basePrice: Double = 0.0,
+    val discount: Double = 0.0
 )

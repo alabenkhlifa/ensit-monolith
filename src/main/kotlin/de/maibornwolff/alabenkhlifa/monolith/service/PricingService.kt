@@ -5,7 +5,15 @@ import de.maibornwolff.alabenkhlifa.monolith.repository.PricingRepository
 import org.springframework.stereotype.Service
 
 @Service
-class OrderService(private val pricingRepository: PricingRepository) {
+class PricingService(private val pricingRepository: PricingRepository) {
+
+    fun getItemPriceByIds(itemIds: List<Long>): Map<Long, Double> {
+        val prices = mutableMapOf<Long, Double>()
+        itemIds.forEach { itemId ->
+            prices[itemId] = getItemPriceById(itemId)
+        }
+        return prices
+    }
 
     fun getItemPriceById(itemId: Long): Double {
         val pricing = pricingRepository.findById(itemId)

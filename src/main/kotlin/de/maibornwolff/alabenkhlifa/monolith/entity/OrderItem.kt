@@ -5,14 +5,11 @@ import jakarta.persistence.Id
 import java.time.LocalDate
 
 @Entity
-class Order(
+class OrderItem(
     @Id
+    val orderItemId: Long = 0,
     val orderId: Long = 0,
-    val customerId: Long = 0,
-    val orderDate: LocalDate = LocalDate.now(),
-    val status: OrderStatus = OrderStatus.PENDING,
+    val productId: Long = 0,
+    val quantity: Long = 0,
+    val price: Double = 0.0
 )
-
-enum class OrderStatus {
-    PENDING, SHIPPED, DELIVERED
-}
