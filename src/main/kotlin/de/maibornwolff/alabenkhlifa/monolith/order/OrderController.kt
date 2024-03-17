@@ -1,7 +1,5 @@
 package de.maibornwolff.alabenkhlifa.monolith.order
 
-import de.maibornwolff.alabenkhlifa.monolith.order.Order
-import de.maibornwolff.alabenkhlifa.monolith.order.OrderService
 import org.springframework.web.bind.annotation.*
 
 @RestController
