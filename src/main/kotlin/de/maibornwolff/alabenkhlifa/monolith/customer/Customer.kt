@@ -1,12 +1,13 @@
 package de.maibornwolff.alabenkhlifa.monolith.customer
 
 import jakarta.persistence.Entity
+import jakarta.persistence.GeneratedValue
 import jakarta.persistence.Id
-import java.time.LocalDate
 
 @Entity
-class Customer(
+data class Customer(
     @Id
+    @GeneratedValue
     val customerId: Long = 0,
     val firstname: String = "",
     val lastname: String = "",

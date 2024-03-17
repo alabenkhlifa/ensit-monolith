@@ -1,12 +1,14 @@
 package de.maibornwolff.alabenkhlifa.monolith.order
 
 import jakarta.persistence.Entity
+import jakarta.persistence.GeneratedValue
 import jakarta.persistence.Id
 import java.time.LocalDate
 
 @Entity
-class Order(
+data class Order(
     @Id
+    @GeneratedValue
     val orderId: Long = 0,
     val customerId: Long = 0,
     val orderDate: LocalDate = LocalDate.now(),
