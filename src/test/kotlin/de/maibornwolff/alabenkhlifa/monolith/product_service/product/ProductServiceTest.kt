@@ -1,8 +1,5 @@
-package de.maibornwolff.alabenkhlifa.monolith.service
+package de.maibornwolff.alabenkhlifa.monolith.product_service.product
 
-import de.maibornwolff.alabenkhlifa.monolith.product.Product
-import de.maibornwolff.alabenkhlifa.monolith.product.ProductService
-import de.maibornwolff.alabenkhlifa.monolith.product.ProductRepository
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

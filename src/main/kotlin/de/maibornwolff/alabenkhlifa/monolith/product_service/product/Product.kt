@@ -1,4 +1,4 @@
-package de.maibornwolff.alabenkhlifa.monolith.product
+package de.maibornwolff.alabenkhlifa.monolith.product_service.product
 
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue

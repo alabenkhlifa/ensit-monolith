@@ -1,4 +1,4 @@
-package de.maibornwolff.alabenkhlifa.monolith.pricing
+package de.maibornwolff.alabenkhlifa.monolith.product_service.pricing
 
 import org.springframework.stereotype.Service
 

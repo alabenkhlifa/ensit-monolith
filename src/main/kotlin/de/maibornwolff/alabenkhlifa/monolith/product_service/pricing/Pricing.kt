@@ -1,9 +1,8 @@
-package de.maibornwolff.alabenkhlifa.monolith.pricing
+package de.maibornwolff.alabenkhlifa.monolith.product_service.pricing
 
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
 import jakarta.persistence.Id
-import java.time.LocalDate
 
 @Entity
 data class Pricing(

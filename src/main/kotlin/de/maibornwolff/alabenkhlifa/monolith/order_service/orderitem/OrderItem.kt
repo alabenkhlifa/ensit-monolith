@@ -1,4 +1,4 @@
-package de.maibornwolff.alabenkhlifa.monolith.orderitem
+package de.maibornwolff.alabenkhlifa.monolith.order_service.orderitem
 
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
